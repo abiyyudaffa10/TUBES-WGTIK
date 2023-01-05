@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1671468888 source:c:\users\letha\onedrive\pictures\semester 3\latihan\tubes std\main.cpp
+	"tubes.h"
+
+1671468608 source:c:\users\letha\onedrive\pictures\semester 3\latihan\tubes std\tubes.cpp
+	"tubes.h"
+
+1671538188 c:\users\letha\onedrive\pictures\semester 3\latihan\tubes std\tubes.h
+	<iostream>
+

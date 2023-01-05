@@ -1,0 +1,55 @@
+#ifndef TUBES_H_INCLUDED
+#define TUBES_H_INCLUDED
+#include <iostream>
+using namespace std;
+
+#define info(p) (p)->info
+#define next(p) (p)->next
+#define first(L) ((L).first)
+
+typedef struct paper infotypep;
+typedef struct keyword infotypek;
+typedef struct elementp *adrpaper;
+typedef struct elementk *adrkeyword;
+typedef struct elementc *adrconnect;
+
+struct paper{
+    string judul;
+};
+
+struct elementp{
+    infotypep info;
+    adrpaper next;
+    adrconnect key;
+};
+
+struct keyword{
+    string kata;
+};
+
+struct elementk{
+    infotypek info;
+    adrkeyword next;
+};
+
+struct elementc{
+    adrkeyword info;
+    adrconnect next;
+};
+struct listpaper{
+    adrpaper first;
+};
+
+struct listkeyword{
+    adrkeyword first;
+};
+
+void insertfirstpaper(listpaper &Lp, adrpaper p);
+void showalldata();
+void deletedatapaper();
+void findpaper();
+void findkeyword();
+void addKdata();
+
+
+#endif // TUBES_H_INCLUDED

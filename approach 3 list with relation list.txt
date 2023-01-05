@@ -1,0 +1,6 @@
+1. list N to N menggunakan element baru untuk menunjuk list 2 dari list 1 
+2. kotak ijo berfungsi sebagai next sedangkan kotak pink berfungsi sebagai pointer to list 2
+3. fungsi dari struct elementp adalah melihat nilai paper(info paper), menunjuk list paper, menunjuk node keyword
+4. struct elementk berfungsi untuk melihat nilai keyword(info keyword) dan menunjuk list keyword
+5. struct elementr berfungsi untuk melihat nilai relasi(info relasi) dan menunjuk list relasi
+6. 
